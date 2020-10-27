@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bPGvMitvEc7lU5RZ5fvx/9jpqMIOO2HGtglQYoDi97pi261ctMrbUNAc7YlqeSRyY0n0znN3A/yAQ79paUr83Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gelly\\source\\Code\\AWS_Draft\\TestMain\\TestMain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gelly\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

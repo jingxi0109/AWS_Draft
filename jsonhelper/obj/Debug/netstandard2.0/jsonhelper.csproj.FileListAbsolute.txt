@@ -1,0 +1,9 @@
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\obj\Debug\netstandard2.0\jsonhelper.csprojAssemblyReference.cache
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\obj\Debug\netstandard2.0\jsonhelper.AssemblyInfoInputs.cache
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\obj\Debug\netstandard2.0\jsonhelper.AssemblyInfo.cs
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\obj\Debug\netstandard2.0\jsonhelper.csproj.CoreCompileInputs.cache
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\bin\Debug\netstandard2.0\jsonhelper.deps.json
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\bin\Debug\netstandard2.0\jsonhelper.dll
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\bin\Debug\netstandard2.0\jsonhelper.pdb
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\obj\Debug\netstandard2.0\jsonhelper.dll
+C:\Users\gelly\source\Code\AWS_Draft\jsonhelper\obj\Debug\netstandard2.0\jsonhelper.pdb
