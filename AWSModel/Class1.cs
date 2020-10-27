@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AWSModel
 {
@@ -18,5 +19,23 @@ namespace AWSModel
             var res=Newtonsoft.Json.JsonConvert.DeserializeObject<Userinfo>( js.Read_jsonfile());
             return res;
         }
+    }
+    public class UserCollection:List<Userinfo>
+    {
+        public UserCollection()
+        {
+
+        }
+        static jsonhelper.Json_helper json=new jsonhelper.Json_helper(@"./users.json");
+        public void Save_info()
+        {
+             json.Write_jsonfile(Newtonsoft.Json.JsonConvert.SerializeObject(this));
+        }
+        public UserCollection Load_info()
+        {
+            var res=Newtonsoft.Json.JsonConvert.DeserializeObject<UserCollection>( json.Read_jsonfile());
+            return res;
+        }
+        //public List MyProperty { get; set; }
     }
 }
