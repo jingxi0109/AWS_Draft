@@ -25,7 +25,7 @@ namespace TestMain
             uc.Save_info();
             Console.WriteLine("save done.");
             var res = uc.Load_info();
-            Console.WriteLine(res.Count);
+            Console.WriteLine(res.has_user("2233322233"));
         }
     }
 }
