@@ -15,21 +15,17 @@ namespace TestMain
                 GUUID = "2233322233",
                 Phone = "13222330099"
             };
-           
-           UserCollection uc=new UserCollection();
-           uc.Add(userinfo);
-             uc.Add(userinfo);
-               uc.Add(userinfo);
-                 uc.Add(userinfo);
-                   uc.Add(userinfo);
-                     uc.Add(userinfo);
-                     uc.Save_info();
-
-                     Console.WriteLine("save done.");
-
-var res=uc.Load_info();
-Console.WriteLine(res.Count);
-
+            UserCollection uc = new UserCollection();
+            uc.Add(userinfo);
+            uc.Add(userinfo);
+            uc.Add(userinfo);
+            uc.Add(userinfo);
+            uc.Add(userinfo);
+            uc.Add(userinfo);
+            uc.Save_info();
+            Console.WriteLine("save done.");
+            var res = uc.Load_info();
+            Console.WriteLine(res.Count);
         }
     }
 }
