@@ -14,7 +14,7 @@ namespace AWSModel
         {
             js.Write_jsonfile(Newtonsoft.Json.JsonConvert.SerializeObject(this));
         }
-        public Userinfo Load_info()
+        public  Userinfo Load_info()
         {
             var res = Newtonsoft.Json.JsonConvert.DeserializeObject<Userinfo>(js.Read_jsonfile());
             return res;
@@ -31,7 +31,7 @@ namespace AWSModel
         {
             json.Write_jsonfile(Newtonsoft.Json.JsonConvert.SerializeObject(this));
         }
-        public UserCollection Load_info()
+        public static UserCollection Load_info()
         {
             var res = Newtonsoft.Json.JsonConvert.DeserializeObject<UserCollection>(json.Read_jsonfile());
             return res;
